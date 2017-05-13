@@ -81,26 +81,6 @@ export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY
 ```markdown
 nvidia-smi
 ```
-```markdown
-yerin@yerin-com:~/Downloads$ nvidia-smi 
-Sat May 13 12:15:34 2017       
-+-----------------------------------------------------------------------------+
-| NVIDIA-SMI 375.66                 Driver Version: 375.66                    |
-|-------------------------------+----------------------+----------------------+
-| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
-| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
-|===============================+======================+======================|
-|   0  GeForce GT 630M     Off  | 0000:02:00.0     N/A |                  N/A |
-| N/A   54C    P8    N/A /  N/A |    176MiB /  1985MiB |     N/A      Default |
-+-------------------------------+----------------------+----------------------+
-                                                                               
-+-----------------------------------------------------------------------------+
-| Processes:                                                       GPU Memory |
-|  GPU       PID  Type  Process name                               Usage      |
-|=============================================================================|
-|    0                  Not Supported                                         |
-+-----------------------------------------------------------------------------+
-```
 
 ### 3. Install cuDNN5.1
 
