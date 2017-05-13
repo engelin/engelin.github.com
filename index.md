@@ -119,8 +119,8 @@ chmod +x bazel-0.3.0-installer-linux-x86_64.sh
 ```
 -Add PATH variable to the end of .bashrc file
 ```markdown
-source /home/textminer/.bazel/bin/bazel-complete.bash
-export PATH=$PATH:/home/textminer/.bazel/bin
+source /home/yerin/.bazel/bin/bazel-complete.bash
+export PATH=$PATH:/home/yerin/.bazel/bin
 ```
 Execute:
 ```markdown
